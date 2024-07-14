@@ -62,7 +62,7 @@ console.log(val);
 val = "Jignesh";
 console.log(val);
 
-// Activity 4 : Understanding const
+// Activity 5 : Understanding const
 console.log("Activity 5 : Understanding Const :- ");
 // Task 06 - WAP to declare variable using 'const' then observe the error 
 
