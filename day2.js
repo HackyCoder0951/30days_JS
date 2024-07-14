@@ -73,3 +73,5 @@ console.log(`Strict Equality Check of ${EqualityA} <= ${EqualityB} is : ${Equali
 Equality = EqualityA === EqualityB;
 console.log(`Non Strict Equality Check of ${EqualityA} >= ${EqualityB} is : ${Equality}`);
 
+// Activity 4 - Logical Operators
+console.log("Activity 4 - Logical Operators :- ");
