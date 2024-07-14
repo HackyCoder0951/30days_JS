@@ -75,3 +75,4 @@ console.log(`Non Strict Equality Check of ${EqualityA} >= ${EqualityB} is : ${Eq
 
 // Activity 4 - Logical Operators
 console.log("Activity 4 - Logical Operators :- ");
+// Task 11 - WAP to use && operator to combine two conditions and log the result
