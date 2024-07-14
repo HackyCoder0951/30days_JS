@@ -1,20 +1,26 @@
 'use strict';
-// task 1 - create a 'var' / assing it a number / log the value to console
+// Activity 1 : Variable Declaration
+console.log("Activity 1 : Variable Declaration :- ");
+// Task 01 - WAP to create a 'var' / assing it a number / log the value to console
 
 var n1 = 10;
 console.log(n1);
 
-// task 2 - create a 'let' / assing it a string / log the value to console
+// Task 02 - WAP to create a 'let' / assing it a string / log the value to console
 
 let str = "jignesh";
 console.log(str);
 
-// task 3 - create a 'const' / assing it a boolean value / log the value to console
+// Activity 2 : Constant Declaration
+console.log("Activity 2 : Constant Declaration :- ");
+// Task 03 - WAP to create a 'const' / assing it a boolean value / log the value to console
 
 const bool = true;
 console.log(bool);
 
-// task 4 - creates variables of different data types / log each variable's type using 'typeof' operator
+// Activity 3 : Data Types
+console.log("Activity 2 : Data Types :- ");
+// Task 04 - WAP to creates variables of different data types / log each variable's type using 'typeof' operator
 
 let n = 10;
 console.log("type of number - ",typeof n);
@@ -44,7 +50,9 @@ let array = [
 ];
 console.log("type of array - ", typeof array);
 
-// task 5 - declare variable using 'let' then assign it a initial value then reassign the value then log the both value.
+// Activity 4 : Reassigning Variables
+console.log("Activity 4 : Reassigning Variables :- ");
+// Task 05 - WAP to declare variable using 'let' then assign it a initial value then reassign the value then log the both value.
 
 // before reasssigning value
 let val = "value";
@@ -54,7 +62,9 @@ console.log(val);
 val = "Jignesh";
 console.log(val);
 
-// task 6 - declare variable using 'const' then observe the error 
+// Activity 4 : Understanding const
+console.log("Activity 5 : Understanding Const :- ");
+// Task 06 - WAP to declare variable using 'const' then observe the error 
 
 // befor reassigning value
 const newVal = "New Value";
