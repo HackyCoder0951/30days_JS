@@ -48,7 +48,7 @@ asSubA -= 45, asSubB -= 34;
 console.log(`Assignment -= of A is : ${asSubA} | Assignment -= of B is : ${asSubB}\n`);
 
 // Activity 3 - Comparison Operators
-console.log("Activity 2 - Assignment Operators :- ");
+console.log("Activity 3 - Comparison Operators :- ");
 // Task 08 - WAP to Compare two numbers using > and < & log the results
 
 let LessThenA = 50, LessThenB = 56, LessThen;
@@ -71,8 +71,26 @@ let EqualityA = 40,EqualityB = 70, Equality;
 Equality = EqualityA == EqualityB;
 console.log(`Strict Equality Check of ${EqualityA} <= ${EqualityB} is : ${Equality}`);
 Equality = EqualityA === EqualityB;
-console.log(`Non Strict Equality Check of ${EqualityA} >= ${EqualityB} is : ${Equality}`);
+console.log(`Non Strict Equality Check of ${EqualityA} >= ${EqualityB} is : ${Equality}\n`);
 
 // Activity 4 - Logical Operators
 console.log("Activity 4 - Logical Operators :- ");
 // Task 11 - WAP to use && operator to combine two conditions and log the result
+
+let LogicalAndA = 40, LogicalAndB = 567, LogicalAnd;
+LogicalAnd = LogicalAndA > LogicalAndB && LogicalAndA < LogicalAndB;
+console.log(`LogicalAnd && Check of ${LogicalAndA} > ${LogicalAndB} && ${LogicalAndA} == ${LogicalAndB} is : ${LogicalAnd}`);
+
+// Task 12 - WAP to use || operator to combine two conditions and log the result
+
+let LogicalORA = 40, LogicalORB = 50, LogicalOR;
+LogicalOR = LogicalORA < LogicalORB || LogicalORA > LogicalORB;
+console.log(`LogicalOR || Check of ${LogicalORA} || ${LogicalORB} is : ${LogicalOR}`);
+
+// Task 13 - WAP to use ! operator to combine two conditions and log the result
+
+let LogicalNotA = 40, LogicalNotB = 50, LogicalNot;
+LogicalNot = !LogicalNotA || !LogicalNotB;
+console.log(`LogicalNot ! Check of !${LogicalNotA} || !${LogicalNotB} is : ${LogicalNot}`);
+
+
