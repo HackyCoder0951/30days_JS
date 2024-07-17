@@ -35,4 +35,41 @@ let num1, num2;
 let LessThen, GreaterThen, LessEqual, GreaterEqual, EqualityCheck;
 let LogicalAnd, LogicalOR, LogicalNot;
 
-// 
+// Comparision Operations
+LessThen = num1 < num2;
+console.log(`Comparison of ${num1} < ${num2} is : ${LessThen}`);
+
+GreaterThen = num1 > num2;
+console.log(`Comparison of ${num1} > ${num2} is : ${GreaterThen}`);
+
+LessEqual = num1 <= num2;
+console.log(`Comparison of  ${num1} <= ${num2} is : ${LessEqual}`);
+
+GreaterEqual = num1 >= num2;
+console.log(`Comparison of  ${num1} >= ${num2} is : ${GreaterThen}\n`);
+
+EqualityCheck = num1 == num2;
+console.log(`Strict Equality Check of ${num1} == ${num2} is : ${EqualityCheck}`);
+
+EqualityCheck = num1 === num2;
+console.log(`Non Strict Equality Check of ${num1} === ${num2} is : ${EqualityCheck}\n`);
+
+// Logical Operations
+LogicalAnd = num1 < num2 && num1 > num2;
+console.log(`LogicalAnd && Check of ${num1} > ${num2} && ${num1} == ${num2} is : ${LogicalAnd}`);
+
+LogicalOR = num1 < num2 || num1 > num2;
+console.log(`LogicalOR || Check of ${num1} < ${num2} || ${num1} > ${num2}is : ${LogicalOR}`);
+
+LogicalNot = !num1 || !num2;
+console.log(`LogicalNot ! Check of !${num1} || !${num2} is : ${LogicalNot}\n`);
+
+// Request 3 - Write a script that uses the Ternary Operator to check if a number is positive or negative and logs the results.
+const Req3 = "Request 3 Output :- \n";
+console.log(Req3); 
+
+let Num = 50, Ternary;
+
+// Ternary Operator
+Ternary = (Num > 0 ) ? "positive" : (Num < 0 ) ? "negative" : "zero";
+console.log(`The Number is ${Num} is ${Ternary}`);
