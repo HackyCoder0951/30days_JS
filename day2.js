@@ -100,3 +100,5 @@ console.log("Activity 5 - Ternary Operators :- ");
 let TernaryNum = 50 , Ternary;
 Ternary = (TernaryNum > 0 ) ? "positive" : (TernaryNum < 0 ) ? "negative" : "zero";
 console.log(`The Number is ${TernaryNum} is ${Ternary}`);
+
+
