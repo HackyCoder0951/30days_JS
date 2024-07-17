@@ -1,4 +1,7 @@
 'use strict';
+
+/* Day 2 - Operators */
+
 // Activity 1 : Arithmetic Operations
 console.log("Activity 1 - Arithmetic Operators :- ");
 // Task 01 - WAP to Add Number & Log the result

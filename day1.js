@@ -1,4 +1,7 @@
 'use strict';
+
+/* Day 1 - Variables and Data Types */
+
 // Activity 1 : Variable Declaration
 console.log("Activity 1 : Variable Declaration :- ");
 // Task 01 - WAP to create a 'var' / assing it a number / log the value to console
