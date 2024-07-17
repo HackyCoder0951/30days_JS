@@ -91,6 +91,12 @@ console.log(`LogicalOR || Check of ${LogicalORA} || ${LogicalORB} is : ${Logical
 
 let LogicalNotA = 40, LogicalNotB = 50, LogicalNot;
 LogicalNot = !LogicalNotA || !LogicalNotB;
-console.log(`LogicalNot ! Check of !${LogicalNotA} || !${LogicalNotB} is : ${LogicalNot}`);
+console.log(`LogicalNot ! Check of !${LogicalNotA} || !${LogicalNotB} is : ${LogicalNot}\n`);
 
+// Activity 5 - Ternary Operators
+console.log("Activity 5 - Ternary Operators :- ");
+// Task 14 - WAP that uses ternary operator to check if a number is positive or negative and log the result to the console
 
+let TernaryNum = 50 , Ternary;
+Ternary = (TernaryNum > 0 ) ? "positive" : (TernaryNum < 0 ) ? "negative" : "zero";
+console.log(`The Number is ${TernaryNum} is ${Ternary}`);
