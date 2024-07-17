@@ -67,11 +67,11 @@ console.log(`Comparison of ${LessEqualA} >= ${LessEqualB} is : ${LessEqual}`);
 
 // Task 10 - WAP to Compare two numbers using == and === & log the results
 
-let EqualityA = 40,EqualityB = 70, Equality;
+let EqualityA = 40,EqualityB = 50, Equality;
 Equality = EqualityA == EqualityB;
-console.log(`Strict Equality Check of ${EqualityA} <= ${EqualityB} is : ${Equality}`);
+console.log(`Strict Equality Check of ${EqualityA} == ${EqualityB} is : ${Equality}`);
 Equality = EqualityA === EqualityB;
-console.log(`Non Strict Equality Check of ${EqualityA} >= ${EqualityB} is : ${Equality}\n`);
+console.log(`Non Strict Equality Check of ${EqualityA} === ${EqualityB} is : ${Equality}\n`);
 
 // Activity 4 - Logical Operators
 console.log("Activity 4 - Logical Operators :- ");
