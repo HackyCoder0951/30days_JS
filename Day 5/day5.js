@@ -20,3 +20,4 @@ console.log("Activity 4 : Function Parameters and Default Values :- ");
 
 // Activity 5 : Higher-Order Function
 console.log("Activity 5 : Higher-Order Function :- ");
+// Task 01 - 
