@@ -3,7 +3,7 @@
 /* Day 3 - Control Structures */
 
 // Activity 1 : If-Else Statements
-console.log("Activity 1 : If-Else Statements :- ");
+console.log("\nActivity 1 : If-Else Statements :- \n");
 // Task 01 - WAP to check if a number is positive, negative, or zero and log the results.
 
 let Num = 50;
@@ -48,10 +48,62 @@ if (a >= b) {
 }
 
 // Activity 3 : Switch Case Statements
-console.log("Activity 3 : Switch Case Statements :- ");
+console.log("Activity 3 : Switch Case Statements :- \n");
 // Task 04 - WAP that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
 
+let dayName;
+let dayNumber = 1;
+switch (dayNumber) {
+  case 1:
+    dayName = "Sunday";
+    break;
+  case 2:
+    dayName = "Monday";
+    break;
+  case 3:
+    dayName = "Tuesday";
+    break;
+  case 4:
+    dayName = "Wednesday";
+    break;
+  case 5:
+    dayName = "Thursday";
+    break;
+  case 6:
+    dayName = "Friday";
+    break;
+  case 7:
+    dayName = "Saturday";
+    break;
+  default:
+    dayName = "Invalid Day Range";
+}
+console.log(`The day number ${dayNumber} corresponds to ${dayName}.\n`);
+
 // Task 05 - WAP that uses a switch case to assign a grade ('A','B','C','D','F') based on score and log the grade to the console.
+
+let Grade;
+let Score = 50;
+switch (Score) {
+  case 90:
+    Grade = "A";
+    break;
+  case 80:
+    Grade = "B";
+    break;
+  case 70:
+    Grade = "C";
+    break;
+  case 50:
+    Grade = "D";
+    break;
+  case 36:
+    Grade = "E";
+    break;
+  default:
+    Grade = "Invalid Scores.";
+}
+console.log(`The Grade for ${Score} is ${Grade}.\n`);
 
 // Activity 4 : Conditional(Ternary) Operator
 console.log("Activity 4 : Conditional(Ternary) Operator :- ");
