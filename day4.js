@@ -81,7 +81,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // Task 09 - WAP to print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement
-console.log("\nTask 8 - Print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement :- \n");
+console.log("\nTask 9 - Print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement :- \n");
 for (let i = 1; i <= 10; i++) {
     if (i === 7) {
         break; // stoped at number 7
