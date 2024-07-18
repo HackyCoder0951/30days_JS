@@ -17,11 +17,11 @@ if (Num > 0) {
 
 // Task 02 - WAP to check if a person is eligible to vote ( age > = 18) and log the results.
 
-let age = 10;
+let age = 21;
 if (age >= 18) {
-  console.log(`The Person is Eligible to Vote\n`);
+  console.log(`The Person of age of ${age} is Eligible to Vote\n`);
 } else {
-  console.log(`The Person is not Eligible to Vote\n`);
+  console.log(`The Person of age of ${age} is not Eligible to Vote\n`);
 }
 
 // Activity 2 : Nested If-Else Statements
