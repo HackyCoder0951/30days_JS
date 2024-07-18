@@ -26,6 +26,13 @@ calculateSquare(8);
 // Activity 2 : Function Expression
 console.log("Activity 2 : Function Expression :- ");
 // Task 03 - WAF expression to find the maximum of two numbers and log the result to the console.
+const findMax = function(num1,num2){
+    const max = (num1 >= num2) ? num1 : num2;
+    console.log(`The Maximum of ${num1} and ${num2} is ${max}.`);
+}
+findMax(34,56);
+findMax(34,49);
+
 // Task 04 - WAF expression to concatenate two strings and return the results.
 
 
