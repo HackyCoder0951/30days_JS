@@ -8,7 +8,9 @@ for (let i = 1; i <= 10; i++) {
     console.log(`${i}`);
 }
 // Task 02 - WAP to print the multiplication table of 5 using a for loop
-
+for (j = 5; j <= j; j++) {
+    console.log(`${j}`);
+}
 
 // Activity 2 : While Loop
 console.log("\nActivity 2 : While Loop :- \n");
