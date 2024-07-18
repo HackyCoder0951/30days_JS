@@ -17,10 +17,16 @@ for (let j = 1; j <= 10; j++) {
 // Activity 2 : While Loop
 console.log("\nActivity 2 : While Loop :- \n");
 // Task 03 - WAP to calculate the sum of numbers from 1 to 10 using while loop
-
+console.log("\nTask 2 - The Sum of Numbers from 1 to 10 :- \n");
+let Num = 1;
+let Sum = 0;
+while (Num <= 10){
+    Sum += Num;
+    Num++;
+}
+console.log(`The Sum of Numbers from 1 to 10 is : ${Sum}`);
 
 // Task 04 - WAP to print numbers from 10 to 1 using a while loop
-
 
 // Activity 3 : Do...While Loop
 console.log("\nActivity 3 : Do...While Loop :- \n");
