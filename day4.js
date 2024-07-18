@@ -46,7 +46,15 @@ do {
 
 
 // Task 06 - WAP to calculate the factorial of a number using a do...while loop
-
+console.log("\nTask 6 - Calculate the factorial of a number :- \n");
+let num = 5;
+let factorial = 1;
+let a = 1;
+do {
+    factorial *= a;
+    a++;
+} while (a <= num);
+console.log(`The factorial of ${num} is ${factorial}`);
 
 // Activity 4 : Nested Loops
 console.log("\nActivity 4 : Nested Loops :- \n");
