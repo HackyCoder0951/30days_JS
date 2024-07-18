@@ -59,6 +59,15 @@ console.log(`The factorial of ${num} is ${factorial}`);
 // Activity 4 : Nested Loops
 console.log("\nActivity 4 : Nested Loops :- \n");
 // Task 07 - WAP to print a pattern using nested for loop
+const rows = 5;
+for (let i = 0; i < rows; i++) {
+    let str = "";
+    for (let j = 0; j <= i; j++) {
+        str += "*";
+    }
+    console.log(str);
+}
+
 
 // Activity 5 : Loop Control Statement
 console.log("\nActivity 5 : Loop Control Statement :- \n");
