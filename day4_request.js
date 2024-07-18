@@ -46,4 +46,14 @@ while (Num <= 10){
 console.log(`\nThe Sum of Numbers from 1 to 10 is : ${Sum}`);
 
 // Request 5 - WAS that calculates the factorial of a number using a do...while loop.
-
+const Req5 = "\nRequest 5 Output :-";
+console.log(Req5); 
+console.log("\nCalculate the factorial of a number :- \n");
+let num = 5;
+let factorial = 1;
+let a = 1;
+do {
+    factorial *= a;
+    a++;
+} while (a <= num);
+console.log(`The factorial of ${num} is ${factorial}`);
