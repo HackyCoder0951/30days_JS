@@ -8,20 +8,20 @@ console.log("\nActivity 1 : If-Else Statements :- \n");
 
 let Num = 50;
 if (Num > 0) {
-  console.log(`The Number ${Num} is Positive\n`);
+  console.log(`     The Number ${Num} is Positive\n`);
 } else if (Num < 0) {
-  console.log(`The Number ${Num} is Negative\n`);
+  console.log(`     The Number ${Num} is Negative\n`);
 } else {
-  console.log(`The Number ${Num} is Zero\n`);
+  console.log(`     The Number ${Num} is Zero\n`);
 }
 
 // Task 02 - WAP to check if a person is eligible to vote ( age > = 18) and log the results.
 
 let age = 21;
 if (age >= 18) {
-  console.log(`The Person of age of ${age} is Eligible to Vote\n`);
+  console.log(`     The Person of age of ${age} is Eligible to Vote\n`);
 } else {
-  console.log(`The Person of age of ${age} is not Eligible to Vote\n`);
+  console.log(`     The Person of age of ${age} is not Eligible to Vote\n`);
 }
 
 // Activity 2 : Nested If-Else Statements
@@ -44,7 +44,7 @@ if (a >= b) {
   } else {
     largest = c;
   }
-  console.log(`Largest Number among ${a}, ${b}, ${c} is ${largest}\n`);
+  console.log(`     Largest Number among ${a}, ${b}, ${c} is ${largest}\n`);
 }
 
 // Activity 3 : Switch Case Statements
@@ -78,7 +78,7 @@ switch (dayNumber) {
   default:
     dayName = "Invalid Day Range";
 }
-console.log(`The day number ${dayNumber} corresponds to ${dayName}.\n`);
+console.log(`     The day number ${dayNumber} corresponds to ${dayName}.\n`);
 
 // Task 05 - WAP that uses a switch case to assign a grade ('A','B','C','D','F') based on score and log the grade to the console.
 
@@ -103,12 +103,19 @@ switch (Score) {
   default:
     Grade = "Invalid Scores.";
 }
-console.log(`The Grade for ${Score} is ${Grade}.\n`);
+console.log(`     The Grade for ${Score} is ${Grade}.\n`);
 
 // Activity 4 : Conditional(Ternary) Operator
-console.log("Activity 4 : Conditional(Ternary) Operator :- ");
+console.log("Activity 4 : Conditional(Ternary) Operator :- \n");
 // Task 06 - WAP that uses the ternary operator to check if a number is even or odd and log the results.
 
+let TernaryNum = -433 , Ternary;
+Ternary = (TernaryNum % 2 === 0) ? "Even" : "Odd";
+console.log(`     The Number is ${TernaryNum} is ${Ternary}\n`);
+
 // Activity 5 : Combining Conditions
-console.log("Activity 5 : Combining Conditions :- ");
+console.log("Activity 5 : Combining Conditions :- \n");
 // Task 07 - WAP to check if a year is a leap year using multiple conditions ( divisible by 4, but not 100 unless also divisible by 400) and log the results.
+let LeapYear = 2024, isLeapYear;
+isLeapYear = (LeapYear % 4 === 0 && LeapYear % 100 !== 0) || (LeapYear % 400 === 0 );
+console.log(`     The Given Year ${LeapYear} is ${isLeapYear ? "a leap year " : "not a leap year" }\n`);
