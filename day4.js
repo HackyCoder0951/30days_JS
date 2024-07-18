@@ -37,8 +37,16 @@ while (k >= 1){
 // Activity 3 : Do...While Loop
 console.log("\nActivity 3 : Do...While Loop :- \n");
 // Task 05 - WAP to print numbers from 1 to 5 using a do...while loop
+console.log("\nTask 5 - Print numbers from 1 to 5 :- \n");
+let l = 1;
+do {
+  console.log(`${l}`);
+  l++;
+} while (l <= 5);
+
 
 // Task 06 - WAP to calculate the factorial of a number using a do...while loop
+
 
 // Activity 4 : Nested Loops
 console.log("\nActivity 4 : Nested Loops :- \n");
