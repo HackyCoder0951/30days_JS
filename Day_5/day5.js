@@ -34,7 +34,15 @@ findMax(34,56);
 findMax(34,49);
 
 // Task 04 - WAF expression to concatenate two strings and return the results.
-
+const concatenateString = function(str1,str2) {
+    return str1 + str2;
+}
+let result1 = concatenateString("Hello, ", "World!");
+console.log(result1);
+let result2 = concatenateString("Good ", "Morning!");
+console.log(result2);
+let result3 = concatenateString("Jignesh ", "Ameta");
+console.log(result3);
 
 // Activity 3 : Arrow Function
 console.log("Activity 3 : Arrow Function :- ");
