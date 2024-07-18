@@ -1,7 +1,17 @@
 'use strict';
 // Request 1 - WAS that prints numbers from 1 to 10 using a for loop and a while loop.
-const Req1 = "\nRequest 1 Output :- \n";
+const Req1 = "\nRequest 1 Output :- ";
 console.log(Req1); 
+console.log("\nUsing For Loop :- \n");
+for (let i = 1; i <= 10; i++) {
+    console.log(`${i}`);
+}
+console.log("\nUsing While Loop :- \n");
+let i = 1;
+while(i <= 10) {
+    console.log(`${i}`);
+    i++;
+}
 
 // Request 2 - WAS that prints multiplication table of 5 using a for loop.
 const Req2 = "\nRequest 2 Output :- \n";
