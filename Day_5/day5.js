@@ -47,16 +47,24 @@ console.log(result3);
 // Activity 3 : Arrow Function
 console.log("Activity 3 : Arrow Function :- ");
 // Task 05 - WAAF to calculate the sum of two numbers and log the results.
+
+
 // Task 06 - WAAF to check if a strings contains a specific character and return a boolean value.
+
 
 // Activity 4 : Function Parameters and Default Values
 console.log("Activity 4 : Function Parameters and Default Values :- ");
 // Task 07 - WAF that takes two parameters and returns their product. Provide a default value for the second parameter.
+
+
 // Task 08 - WAF that takes a person's name and age and returns a greeting message. Provide a default value for the age.
-- 
+
 
 
 // Activity 5 : Higher-Order Function
 console.log("Activity 5 : Higher-Order Function :- ");
 // Task 09 - WAF higher-order function that takes a function and a number, and calls the functions that many times.
+
+
 // Task 10 - WAF higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+
