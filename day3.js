@@ -10,7 +10,7 @@ let Num = 50;
 if (Num > 0) {
   console.log(`     The Number ${Num} is Positive\n`);
 } else if (Num < 0) {
-  console.log(`     The Number ${Num} is Negative\n`);
+  console.log(`     The Number ${Num} is Negative`);
 } else {
   console.log(`     The Number ${Num} is Zero\n`);
 }
