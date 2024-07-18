@@ -35,7 +35,15 @@ for (let i = 0; i < rows; i++) {
 }
 
 // Request 4 - WAS that calculates the sum of numbers from 1 to 10 using a while loop.
-
+const Req4 = "\nRequest 4 Output :-";
+console.log(Req4); 
+let Num = 1;
+let Sum = 0;
+while (Num <= 10){
+    Sum += Num;
+    Num++;
+}
+console.log(`\nThe Sum of Numbers from 1 to 10 is : ${Sum}`);
 
 // Request 5 - WAS that calculates the factorial of a number using a do...while loop.
 const Req5 = "\nRequest 5 Output :-";
