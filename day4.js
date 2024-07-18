@@ -59,18 +59,25 @@ console.log(`The factorial of ${num} is ${factorial}`);
 // Activity 4 : Nested Loops
 console.log("\nActivity 4 : Nested Loops :- \n");
 // Task 07 - WAP to print a pattern using nested for loop
+console.log("\nTask 7 - Print a pattern using nested for loop :- \n");
 const rows = 5;
 for (let i = 0; i < rows; i++) {
     let str = "";
     for (let j = 0; j <= i; j++) {
         str += "*";
     }
-    console.log(str);
+    console.log(`${str}`);
 }
-
 
 // Activity 5 : Loop Control Statement
 console.log("\nActivity 5 : Loop Control Statement :- \n");
 // Task 08 - WAP to print numbers from 1 to 10, but skip the number 5 using the continue statement
+console.log("\nTask 8 - Print numbers from 1 to 10, but skip the number 5 using the continue statement :- \n");
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        continue; // Skip number 5
+    }
+    console.log(`${i}`);
+}
 
 // Task 09 - WAP to print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement
