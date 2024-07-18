@@ -6,6 +6,9 @@
 console.log("Activity 1 : If-Else Statements :- ");
 // Task 01 - WAP to check if a number is positive, negative, or zero and log the results.
 
+let TernaryNum = 50 , Ternary;
+Ternary = (TernaryNum > 0 ) ? "positive" : (TernaryNum < 0 ) ? "negative" : "zero";
+console.log(`The Number is ${TernaryNum} is ${Ternary}`); 
 
 // Task 02 - WAP to check if a person is eligible to vote ( age > = 18) and log the results.
 
