@@ -68,18 +68,40 @@ console.log("Activity 4 : Function Parameters and Default Values :- ");
 // Task 07 - WAF that takes two parameters and returns their product. Provide a default value for the second parameter.
 const b = 10;
 function getProduct(a, b) {
-    return (a * b)
+    return (a * b);
 }
 console.log(getProduct(5, b)); // Outputs: 100
 
 // Task 08 - WAF that takes a person's name and age and returns a greeting message. Provide a default value for the age.
-
-
+const age = 18;
+function Greeting(PName, age) {
+    return `Hello, ${PName}! Your age is ${age}.`;
+}
+console.log(Greeting("Jhon Doe", age));
 
 // Activity 5 : Higher-Order Function
 console.log("Activity 5 : Higher-Order Function :- ");
-// Task 09 - WAF higher-order function that takes a function and a number, and calls the functions that many times.
+// Task 09 - Write a higher-order function that takes a function and a number, and calls the functions that many times.
+function Times(num, func) {
+    for (let i = 0; i < num; i++) {
+        func();
+    }
+}
+Times(5, function() {
+    console.log("Hello World!");
+});
 
+// Task 10 - Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+const applyBoth = (fn1, fn2, value) => {
+    return fn1(value) + fn2(value);
+}
 
-// Task 10 - WAF higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+const add = (num) => {
+    return num + 5;
+}
 
+const mul = (num) => {
+    return num * 5;
+}
+
+console.log(applyBoth(add, mul, 10));
