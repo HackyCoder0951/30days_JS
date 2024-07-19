@@ -47,15 +47,30 @@ console.log(result3);
 // Activity 3 : Arrow Function
 console.log("Activity 3 : Arrow Function :- ");
 // Task 05 - WAAF to calculate the sum of two numbers and log the results.
-
+const sum = ( a, b ) => {
+    return( a + b );
+}
+console.log(`The Arrow Function Result of sum(3,5) is ${sum(3,5)}`);
 
 // Task 06 - WAAF to check if a strings contains a specific character and return a boolean value.
-
+const str = 'Does this string have one or more strings from the array below?';
+const arr = ['z'];
+const contains = arr.some(element => {
+  if (str.includes(element)) {
+    return true;
+  }
+  return false;
+});
+console.log(contains); 
 
 // Activity 4 : Function Parameters and Default Values
 console.log("Activity 4 : Function Parameters and Default Values :- ");
 // Task 07 - WAF that takes two parameters and returns their product. Provide a default value for the second parameter.
-
+const b = 10;
+function getProduct(a, b) {
+    return (a * b)
+}
+console.log(getProduct(5, b)); // Outputs: 100
 
 // Task 08 - WAF that takes a person's name and age and returns a greeting message. Provide a default value for the age.
 
